@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Run the JTAG container for building & debugging
 # ARGS: all args are required.
