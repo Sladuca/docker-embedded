@@ -1,0 +1,7 @@
+FROM ubuntu:16.04
+# install JTAG & Build tools
+RUN apt-get install --no-install-reccomends -y \
+      openocd \
+      gcc-arm-none-eabi \
+      make \
+      gdb-arm-none-eabi \
